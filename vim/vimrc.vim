@@ -38,6 +38,12 @@
 	set pastetoggle=<F2>
 	set mouse=a
 	set incsearch
+    
+    try
+        colorscheme pixelmuerto
+    catch
+        colorscheme elflord
+    endtry
 
 " Language Specific
 	" General
