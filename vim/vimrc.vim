@@ -1,4 +1,6 @@
 " General Vim settings
+
+	execute pathogen#infect()
 	syntax on
 	let mapleader=","
 	set autoindent
@@ -7,6 +9,7 @@
 	set dir=/tmp/
 	set relativenumber 
 	set number
+	set expandtab
 
 	set cursorline
 	hi Cursor ctermfg=White ctermbg=Yellow cterm=bold guifg=white guibg=yellow gui=bold
